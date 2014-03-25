@@ -7,8 +7,6 @@
 
 #include <QObject>
 #include <QTimer>
-#include <qtconcurrentrun.h>
-#include <QApplication>
 
 #include <QDebug>
 

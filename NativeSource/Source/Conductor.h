@@ -18,7 +18,6 @@
 #include "talk/base/logging.h"
 #include "talk/media/devices/devicemanager.h"
 #include "talk/base/refcount.h"
-#include "talk/media/devices/filevideocapturer.h"
 
 //Perso
 #include "MediaConstraintsNative.h"
@@ -27,7 +26,6 @@
 
 //QT
 #include <qdebug.h>
-#include <qfileinfo.h>
 #include <qcoreapplication.h>
 Q_DECLARE_METATYPE(std::string)
 //#include <qtconcurrentrun.h>

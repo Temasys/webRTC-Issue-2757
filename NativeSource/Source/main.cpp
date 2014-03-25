@@ -1,7 +1,5 @@
-#include <qdebug.h>
-#include <QApplication>
+#include <QCoreApplication>
 #include "talk/base/ssladapter.h"
-//#include <QApplication>
 
 #include "ActivityManager.h"
 
@@ -11,7 +9,7 @@ int main(int argc, char *argv[])
 {
 	////////////////////////////////
 	///Init
-    QApplication a(argc,argv);
+    QCoreApplication a(argc,argv);
     talk_base::InitializeSSL();
     ActivityManager *am;
     talk_base::LogMessage::LogToDebug(talk_base::LS_ERROR);
